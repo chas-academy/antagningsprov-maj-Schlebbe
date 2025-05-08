@@ -8,6 +8,10 @@ function uppg3() {
     // skriv ut summan av a och b i konsolen
 
 
+    var a = 5;
+    var b = 10;
+    var sum = a + b;
+    console.log(sum);
 
 }
 
