@@ -24,5 +24,4 @@ function uppg9 (){
     }
 }
 
-uppg9();
 module.exports = { uppg9 };
