@@ -11,6 +11,23 @@ function uppg8(){
 
 // anropa funktionen och skicka med arrayen som argument
 
+    var persons = [
+        { name: "Jonas", age: 21 },
+        { name: "John", age: 32 },
+        { name: "Jane", age: 38 },
+        { name: "Bob", age: 63 },
+        { name: "Alice", age: 19 }
+    ];
+
+    function printNames(array) {
+        for (var i = 0; i < array.length; i++) {
+            if (array[i].age > 30) {
+                console.log(array[i].name);
+            }
+        }
+    }
+
+    printNames(persons);
 
 }
 
